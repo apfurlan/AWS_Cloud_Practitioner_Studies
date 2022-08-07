@@ -1,36 +1,36 @@
 # **Computing services at AWS**
 
-Amazon Elastic Compute Cloud~(EC2), provide computation capacity without you having to invest in hardware. The EC2 provides virtual machines where you can host 
-your applications with secure and scalabe computational capacity.
-São exemplos de 
-uso do EC2 servidores de aplicativos, servidores web e servidores de bancos de dados. 
-EC2 fornece máquinas virtuais (VMs) chamadas de **instâncias do EC2** que dão 
-controle de administração total à diferentes sistemas operacionais como Windows, 
-Linux Red Hat, SUSE linux, Ubuntu e Amazon Linux**.**  É possível executar qualquer 
-número de instâncias de qualquer tamanho em diversos lugares do mundo em questão de 
-minutos com o uso das Imagens de Máquinas Amazon (AMIs - Amazon Machine Images) .  
-Podemos controlar o tráfego nestas instancias através da criação de security groups.
+Amazon Elastic Compute Cloud (EC2), provide computation capacity without you 
+having to invest in hardware. The EC2 provides virtual machines where you can 
+host your applications with secure and scalabe computational capacity.
 
-Ao criar um instância EC2 através do Launch Wizard é importante que você se aprofunde 
-nas possíveis modificações. Em sistemas reais é comum modificar estas configurações 
-para atender suas necessidades. Ao criar uma instância EC2 precisamos tomar algumas 
-decisões importantes
 
-## Selecionar uma AMI
+EC2 provides virtual machines (VMs) called *EC2 instances* with distinct
+operational systems (OS) like Windows, Linux Red Hat, SUSE Linux, Ubuntu and 
+Amazon Linux. It is possivel to execute any number of instances, with 
+any size and in various places around the world. O traffic trough these
+instances can be controled by security groups (we will talk about 
+security groups later). At the time of creating an EC2 instance, we
+will need decide to X .... 
 
-Qual imagem AMI executar : Cria uma VM na AWS com sistema operacional Windows ou Linux.
+&nbsp;
+&nbsp;
 
-1. **Quick Start :** Aferece AMI pré-compiladas
-2. **My AMIs :** contém todas as AMIs, que você criou. É possível importar VM's de
-    
-    um servidor local e transformá-la em  uma AMI.
-    
-3. **AWS Marketplace :** Modelos pré-configurados de terceiros
-4. **AMIs da comunidade :** AMIs compartilhados por terceiros
+## AMI
+AMI means Amazon Machine Image and it is from its that we create an 
+EC2 instance. The Amazon AWS provides three types of AMI's: public, private
+and paid. 
 
-![https://rg6051loyag2io6oe11p1rcg-wpengine.netdna-ssl.com/wp-content/uploads/2015/04/intro-how-to-delete-unutilized-ebs.jpg](https://rg6051loyag2io6oe11p1rcg-wpengine.netdna-ssl.com/wp-content/uploads/2015/04/intro-how-to-delete-unutilized-ebs.jpg)
+ We can use pre-compiled AMI's from various OS's provided by 
+AWS as well as upload our own images and turn them into AWS AMI. AMIs can 
+also be used from the AWS Marketplace or provided by the community itself.
+The AMI´s can be thougth as ISO files of a given linux distribution.
 
-# 2 - Selecionar tipo de instância
+i
+
+&nbsp;
+
+# Selecting the instance type
 
 Será necessário decidir o tipo de instância a ser criada. O tipo da instância é determinada por memória, processamento, disco e performance de rede.
 
